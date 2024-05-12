@@ -1,0 +1,16 @@
+---
+demo_users:
+  - name: user21
+    state: present
+  - name: user22
+    state: present
+  - name: user23
+    state: present
+  - name: user24
+    state: present
+  - name: user25
+    state: present
+  - name: user26
+    state: present
+  - name: user27
+    state: present
