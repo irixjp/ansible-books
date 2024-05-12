@@ -3,5 +3,6 @@
   gather_facts: false
   tasks:
     - ansible.builtin.user:
-        name: testuser
-        state: present
+        name: "{{ item.name }}"
+        state: "{{ item.state }}"
+      loop: "{{ demo_users }}"
