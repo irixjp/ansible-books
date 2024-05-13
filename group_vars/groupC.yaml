@@ -16,3 +16,5 @@ demo_users:
     state: present
   - name: user28
     state: present
+  - name: user30
+    state: present
